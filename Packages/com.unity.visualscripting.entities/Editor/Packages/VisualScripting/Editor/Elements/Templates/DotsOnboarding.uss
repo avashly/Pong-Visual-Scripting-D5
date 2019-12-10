@@ -1,0 +1,27 @@
+DotsOnboardingElement {
+    padding: 30px 50px 30px 50px;
+}
+
+DotsOnboardingElement > .drop-label {
+    font-size: 18px;
+    position: absolute;
+    border-width: 1px;
+    border-color: var(--dragndrop-highlight-color);
+    background-color: var(--dragndrop-highlight-background-color);
+    -unity-text-align: middle-center;
+}
+
+DotsOnboardingElement > .drop-rejected {
+    border-color: var(--dragndrop-denied-color);
+    background-color: var(--dragndrop-denied-background-color);
+}
+
+DotsOnboardingElement > .warning-hint {
+    font-size: 9px;
+    color: #7d2225;
+    padding-top: 0px;
+}
+
+DotsOnboardingElement > .label-hidden {
+    visibility: hidden;
+}

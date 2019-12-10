@@ -1,0 +1,9 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:vse="Packages.VisualScripting.Editor.Elements">
+    <ui:VisualElement name="expandableRowTitleContainer">
+        <ui:Button name="expandButton">
+            <ui:Image name="buttonImage"/>
+        </ui:Button>
+        <ui:Label name="sectionTitle"/>
+    </ui:VisualElement>
+    <vse:ExpandedContainer name="expandedContainer"/>
+</UXML>

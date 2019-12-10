@@ -1,0 +1,38 @@
+/* TODO: Remove this section when GraphView Styling Bug issues 1155047, 1155050, 1155057, 1155058 are fixed in editor */
+/* Section starts here */
+VseGraphView .unity-button,
+.blackboard #addButton {
+    background-image: none;
+    padding: initial;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+VseGraphView .unity-button:hover,
+.blackboard #addButton:hover {
+    background-image: none;
+    background-color: #676767;
+    /* theme-button-background-color */
+    border-color: #222222;
+    /* -theme-app-toolbar-button-border-color */
+}
+
+VseGraphView .unity-button:hover:active,
+.blackboard #addButton:hover:active {
+    background-image: none;
+    background-color: #747474;
+    /* theme-button-background-color */
+    border-color: #222222;
+    /* -theme-app-toolbar-button-border-color */
+}
+
+VseGraphView .unity-button,
+.blackboard #expandButton {
+    background-color: initial;
+    /* theme-input-background-color */
+}
+/* Section ends here */

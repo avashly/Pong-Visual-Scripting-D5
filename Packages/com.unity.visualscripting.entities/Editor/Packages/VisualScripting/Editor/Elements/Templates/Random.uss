@@ -1,0 +1,12 @@
+.vs-random-node #titleContainer .unity-base-field {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.vs-random-node #titleContainer .unity-base-field .unity-text-element {
+    padding-right: 12px;
+}
+
+.vs-random-node #titleContainer .unity-enum-field.unity-disabled {
+    visibility: hidden;
+}

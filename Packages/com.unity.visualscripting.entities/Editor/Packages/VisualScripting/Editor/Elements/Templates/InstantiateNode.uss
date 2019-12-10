@@ -1,0 +1,93 @@
+#filler {
+    flex-grow: 1;
+}
+
+.instantiateNode .port.instance {
+    align-self: flex-start;
+}
+
+.instantiateNode {
+    min-width: initial;
+    max-width: none;
+}
+
+.stack-node .instantiateNode #node-border > #contents {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.stack-node .instantiateNode #node-border > #contents > #top > #input > #innerContainer {
+    margin-bottom: 4px;
+}
+
+.instantiateNode #componentDataPorts {
+    margin-bottom: 2px;
+}
+
+.instantiateNode #componentDataTitle {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.instantiateNode #componentDataTitle > #componentTitle {
+    padding-right: 20px;
+    margin-left: 4px;
+    top: -1px;
+}
+
+.instantiateNode #componentDataTitle > #componentOperationType {
+    margin-right: 6px;
+}
+
+.instantiateNode #componentSeparatorLine {
+    height: 3px;
+    bottom: 3px;
+    background-color: #111111;
+}
+
+.instantiateNode #deleteComponentIcon {
+    background-image: resource("ComponentDelete");
+    width: 12px;
+    height: 12px;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+    align-self: flex-start;
+    padding: 0;
+    visibility: hidden;
+    margin-left: 8px;
+}
+
+.instantiateNode #componentDataTitle:hover #deleteComponentIcon.deletable {
+    visibility: visible;
+}
+
+.instantiateNode .unity-button {
+    margin: 4px 0 0;
+    padding-top: 0;
+    padding-bottom: 1px;
+}
+
+.stack-node .instantiateNode #addInstantiateComponentButton {
+    font-size: initial;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.stack-node .instantiateNode #addInstantiateComponentButton.unity-button {
+    margin-top: 3px;
+    font-size: 14px;
+    border-width: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: transparent;
+    background-color: #424242;
+}
+
+.stack-node .instantiateNode EnumField > .unity-base-field__input > .unity-text-element {
+    margin-left: 4px;
+    margin-right: 16px;
+}

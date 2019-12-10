@@ -1,0 +1,1974 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8c6a6630b8450e9da0c1de53f00e05, type: 3}
+  m_Name: PlayerControl
+  m_EditorClassIdentifier: 
+  m_GraphModel:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VSGraphModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_State: 0
+        m_AssetModel: {fileID: 11400000}
+        m_GraphNodeModels:
+        - id: 1
+        - id: 2
+        - id: 3
+        - id: 4
+        - id: 5
+        - id: 6
+        - id: 7
+        - id: 8
+        - id: 9
+        - id: 10
+        - id: 11
+        - id: 12
+        - id: 13
+        - id: 14
+        - id: 15
+        - id: 16
+        - id: 17
+        - id: 18
+        - id: 19
+        - id: 20
+        - id: 21
+        - id: 22
+        - id: 23
+        - id: 24
+        - id: 25
+        - id: 26
+        - id: 27
+        - id: 28
+        - id: 29
+        - id: 30
+        - id: 31
+        - id: 32
+        - id: 33
+        m_EdgeModels:
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5181132412445567216
+              m_Value1: 4618830122285903037
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4894800580724304858
+              m_Value1: 14221444458714635435
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5181132412445567216
+              m_Value1: 4618830122285903037
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4947423412440706622
+              m_Value1: 16419156558691678133
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4705215809189193476
+              m_Value1: 10507165527282838190
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: PortB
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5354872158981543088
+              m_Value1: 11085333795392862336
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4705215809189193476
+              m_Value1: 10507165527282838190
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: PortA
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4668140283060723955
+              m_Value1: 14957324028377639065
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Value.y
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4997372244854292113
+              m_Value1: 9275627103247399357
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: x
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4705215809189193476
+              m_Value1: 10507165527282838190
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Out
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5354872158981543088
+              m_Value1: 11085333795392862336
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4873062818862798629
+              m_Value1: 10007002786533652888
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: GetAxis
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5354872158981543088
+              m_Value1: 11085333795392862336
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5181132412445567216
+              m_Value1: 4618830122285903037
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4864830829081299609
+              m_Value1: 11686691491877214862
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4757982914807995252
+              m_Value1: 4822176892025996706
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4668140283060723955
+              m_Value1: 14957324028377639065
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4940702371923300138
+              m_Value1: 10272476823817107628
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5233445545109667334
+              m_Value1: 6788068077304553370
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5216494520370816812
+              m_Value1: 5030843888384058523
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: GetAxis
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5479696828242151281
+              m_Value1: 16135244357577667233
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5539750825538665756
+              m_Value1: 6353578558751646100
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5479696828242151281
+              m_Value1: 16135244357577667233
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5317668535806585847
+              m_Value1: 12449663390266103959
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5233445545109667334
+              m_Value1: 6788068077304553370
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5479696828242151281
+              m_Value1: 16135244357577667233
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5033679100332773691
+              m_Value1: 12540779841626983088
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: PortB
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5233445545109667334
+              m_Value1: 6788068077304553370
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5704039872135283909
+              m_Value1: 4800513027686871985
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: x
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5033679100332773691
+              m_Value1: 12540779841626983088
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Out
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5033679100332773691
+              m_Value1: 12540779841626983088
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: PortA
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5404935886746176810
+              m_Value1: 8452972534791330197
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Value.y
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5644251561060444563
+              m_Value1: 14547792117416069562
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5379902667518317725
+              m_Value1: 8853120892043082398
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4792184620093055167
+              m_Value1: 5673895983687234733
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Y
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5704039872135283909
+              m_Value1: 4800513027686871985
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5404935886746176810
+              m_Value1: 8452972534791330197
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4681591994424753115
+              m_Value1: 15956342476286680990
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4792184620093055167
+              m_Value1: 5673895983687234733
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: X
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5044668108062820273
+              m_Value1: 2767328102721701556
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4792184620093055167
+              m_Value1: 5673895983687234733
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5118806441326887879
+              m_Value1: 6809662087827816865
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4776279874431581410
+              m_Value1: 3624816126220026792
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4890988490182159374
+              m_Value1: 11203791094144069542
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4776279874431581410
+              m_Value1: 3624816126220026792
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Y
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4997372244854292113
+              m_Value1: 9275627103247399357
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: result
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4776279874431581410
+              m_Value1: 3624816126220026792
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: X
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4828897286818506539
+              m_Value1: 17814986102737965709
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4734276098738024051
+              m_Value1: 1577000218686337943
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: 
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 4991844281946458108
+              m_Value1: 10496051453965805741
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5165549660893492287
+              m_Value1: 1730529755314875056
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: Entity
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5318672333024563438
+              m_Value1: 13741689176771834557
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4997372244854292113
+              m_Value1: 9275627103247399357
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5652577324134933502
+              m_Value1: 7778174714455131026
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 4997372244854292113
+              m_Value1: 9275627103247399357
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5419581112715955041
+              m_Value1: 3065082330674628522
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5704039872135283909
+              m_Value1: 4800513027686871985
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: a
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5731514182264166422
+              m_Value1: 5864876355129170845
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        - m_GraphAssetModel: {fileID: 11400000}
+          m_InputPortReference:
+            NodeModelGuid:
+              m_Value0: 5704039872135283909
+              m_Value1: 4800513027686871985
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: b
+          m_OutputPortReference:
+            NodeModelGuid:
+              m_Value0: 5749454238788086735
+              m_Value1: 16744164282257947070
+            GraphAssetModel: {fileID: 11400000}
+            UniqueId: MainPortName
+        m_StickyNoteModels: []
+        m_Stencil:
+          id: 34
+        name: PlayerControl
+        m_GraphVariableModels:
+        - id: 35
+        - id: 36
+        - id: 37
+        - id: 38
+        - id: 39
+        - id: 40
+        - id: 41
+        - id: 42
+    00000001:
+      type: {class: OnUpdateEntitiesNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: 99a82c33dd953834e8adbec3ef77f22a
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 643.0001, y: -1000.9997}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: On Update Entities
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_StackedNodeModels:
+        - id: 43
+        m_FunctionVariableModels: []
+        m_FunctionParameterModels:
+        - id: 44
+        - id: 45
+        - id: 46
+        m_ReturnType:
+          Identification: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_EnableProfiling: 0
+        m_EventType:
+          Identification: 
+        m_Order: 0
+        m_CriteriaModels: []
+    00000002:
+      type: {class: GetInputNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 5271b7ea0d890a34899bea5d30400ea8
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -758, y: -847}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Get Input
+        m_InputConstantKeys:
+        - Input Choice
+        m_InputConstantsValues:
+        - id: 47
+        m_State: 0
+        Mode: 0
+    00000003:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: adba274c133dde34bac12a20368bc55c
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -545, y: -747}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Speed
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 35
+    00000004:
+      type: {class: SystemConstantNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: e3eaafb8167c8a445b7b750d5ef8cd3e
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -604, y: -718}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Time > deltaTime
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_ReturnType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_DeclaringType:
+          Identification: UnityEngine.Time, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_Identifier: deltaTime
+    00000005:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 0f8a4127a7417e74dbca9bc468169104
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -416, y: -790}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: mul
+        m_InputConstantKeys:
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 48
+        - id: 49
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: mul
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1274202488
+    00000006:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 0b459b57bd3505a40883603ba5407d99
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -162, y: -819}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: mul
+        m_InputConstantKeys:
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 50
+        - id: 51
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: mul
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1274202488
+    00000007:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 19ebfe8549b3a554db9fb0eb4b5a9b08
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 334, y: -848}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: clamp
+        m_InputConstantKeys:
+        - x
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 52
+        - id: 53
+        - id: 54
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: clamp
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1572013637
+    00000008:
+      type: {class: BinaryOperatorNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 407264269d84c414eaa6ce1b063f0d19
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 92, y: -848}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Add
+        m_InputConstantKeys:
+        - PortA
+        - PortB
+        m_InputConstantsValues:
+        - id: 55
+        - id: 56
+        m_State: 0
+        kind: 2
+    00000009:
+      type: {class: GetPropertyGroupNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 3f0a685cad098c049982dddd4f6139fc
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -93, y: -872}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Get Property
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_Members:
+        - Path:
+          - Value
+          Type:
+            Identification: Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+        - Path:
+          - Value
+          - y
+          Type:
+            Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+    0000000A:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 47b128c8040c70242a58e459550dbe24
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 456, y: -993}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Left Paddle Query
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 38
+    0000000B:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: a2f0b6b51a6e0944ca83d0fce3b2f8e8
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -240, y: -862}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Translation
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 45
+    0000000C:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: b272aad6f70b3034d82973cf87b8b37f
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 421, y: -884.99994}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Left Paddle Position
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 36
+    0000000D:
+      type: {class: OnUpdateEntitiesNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: 399a3f7e3e8645e4ab900d07ad324e9c
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 643.1781, y: -517.4468}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: On Update Entities
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_StackedNodeModels:
+        - id: 57
+        m_FunctionVariableModels: []
+        m_FunctionParameterModels:
+        - id: 58
+        - id: 59
+        - id: 60
+        m_ReturnType:
+          Identification: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_EnableProfiling: 0
+        m_EventType:
+          Identification: 
+        m_Order: 0
+        m_CriteriaModels: []
+    0000000E:
+      type: {class: GetInputNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: c27697bc026b4684b94a397acd521d54
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -716, y: -313}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Get Input
+        m_InputConstantKeys:
+        - Input Choice
+        m_InputConstantsValues:
+        - id: 61
+        m_State: 0
+        Mode: 0
+    0000000F:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: c1db864660621ec44912ee659027c285
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -473, y: -152}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Speed
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 35
+    00000010:
+      type: {class: SystemConstantNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 7fbe50eeb572cc947981ffd64e616cca
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -533, y: -123}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Time > deltaTime
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_ReturnType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_DeclaringType:
+          Identification: UnityEngine.Time, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_Identifier: deltaTime
+    00000011:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 177453c8b3bcb0c41a2fa894147ebefd
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -366, y: -195}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Mul
+        m_InputConstantKeys:
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 62
+        - id: 63
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: mul
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1274202488
+    00000012:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 60ebc9bcefee0a84a9f18ea93ff043e5
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -113, y: -284}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Mul
+        m_InputConstantKeys:
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 64
+        - id: 65
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: mul
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1274202488
+    00000013:
+      type: {class: FunctionCallNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 5c4c94bda02d82f41b339ea1a29de924
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 375, y: -352}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Clamp
+        m_InputConstantKeys:
+        - x
+        - a
+        - b
+        m_InputConstantsValues:
+        - id: 66
+        - id: 67
+        - id: 68
+        m_State: 0
+        m_DeclaringType:
+          Identification: Unity.Mathematics.math, Unity.Mathematics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_MethodInfoString: clamp
+        m_TypeArguments: []
+        m_IsStatic: 1
+        m_OverloadHashCode: 1572013637
+    00000014:
+      type: {class: BinaryOperatorNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: b3194a0e8783bd540ba4e8272dcc90ea
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 133, y: -353}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Add
+        m_InputConstantKeys:
+        - PortA
+        - PortB
+        m_InputConstantsValues:
+        - id: 69
+        - id: 70
+        m_State: 0
+        kind: 2
+    00000015:
+      type: {class: GetPropertyGroupNodeModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: a2d444b6d80320b4599de501cbdfe457
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -48, y: -392}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Get Property
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_Members:
+        - Path:
+          - Value
+          Type:
+            Identification: Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+        - Path:
+          - Value
+          - y
+          Type:
+            Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+              PublicKeyToken=b77a5c561934e089
+    00000016:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: d941b9fd8f049aa4e9a31d3ab8a9cda7
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 452, y: -509}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Right Paddle Query
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 39
+    00000017:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: bdbfff26d1b58f04e9f5b8d11f0507dd
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -187, y: -385}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Translation
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 59
+    00000018:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 1b783de9ae2420644b6ceab5f3687662
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 415, y: -391}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Right Paddle Position
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 37
+    00000019:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 7c345497657a90741a10c69f697c08e5
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 423, y: -437}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Right Paddle Query Entity
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 58
+    0000001A:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: e0ce4d54e1840e346af6420d3acdb7b9
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 411, y: -917}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Left Paddle Query Entity
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 44
+    0000001B:
+      type: {class: OnStartEntitiesNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: 37ee6ed470783b147933385f751a2e51
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -273.65503, y: -1342.675}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: On Start Entities
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_StackedNodeModels:
+        - id: 71
+        m_FunctionVariableModels: []
+        m_FunctionParameterModels:
+        - id: 72
+        - id: 73
+        - id: 74
+        m_ReturnType:
+          Identification: System.Void, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_EnableProfiling: 0
+        m_EventType:
+          Identification: 
+        m_Order: 0
+        m_CriteriaModels: []
+    0000001C:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: cf7cb7f2de796454da8aad9df2779a19
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -446, y: -1330}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Sphere Query
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 40
+    0000001D:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: ee090aeae48bfc94db2b05bef7944beb
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: -455, y: -1194}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Sphere Query Entity
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 72
+    0000001E:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: ef3ad7ea02df17e4293060831b0a1fb6
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 188.00002, y: -711}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Top Clamp
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 41
+    0000001F:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 16bc9dece48363b4aa70037e32c598a2
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 142.00002, y: -738.00006}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Bottom Clamp
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 42
+    00000020:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 61818fa28cd6a8f4d9bdf07b8f934615
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 184.99998, y: -237.99985}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Bottom Clamp
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 42
+    00000021:
+      type: {class: VariableNodeModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: fcbe3531b2a2acf4eb9b4c843b83f58e
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 212, y: -207.99995}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Top Clamp
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_DeclarationModel:
+          id: 41
+    00000022:
+      type: {class: EcsStencil, ns: UnityEditor.VisualScripting.Model.Stencils, asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        addCreateAssetMenuAttribute: 0
+        fileName: 
+        menuName: 
+        UseJobSystem: 0
+        UpdateAfter: []
+        UpdateBefore: []
+    00000023:
+      type: {class: VariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: speed
+        m_DataType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_VariableType: 1
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 75
+        m_Modifiers: 0
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: f441845a-9687-4b34-8cc5-639deac4e1ae
+    00000024:
+      type: {class: VariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: leftPaddlePosition
+        m_DataType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_VariableType: 1
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 76
+        m_Modifiers: 0
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: f45f9d71-b7e7-4fbd-bf6e-d8ffc53d334d
+    00000025:
+      type: {class: VariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: rightPaddlePosition
+        m_DataType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_VariableType: 1
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 77
+        m_Modifiers: 0
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 11dbdc48-9b53-4130-ba63-642138479aa2
+    00000026:
+      type: {class: ComponentQueryDeclarationModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_Name: LeftPaddle Query
+        m_DataType:
+          Identification: Unity.Entities.EntityQuery, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 3
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 1
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 947d60b5-f5b3-4139-ae3f-334106c89af3
+        m_QueryContainer:
+          Groups: []
+          Components:
+          - Component:
+              TypeHandle:
+                Identification: Unity.Transforms.Translation, Unity.Transforms, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          - Component:
+              TypeHandle:
+                Identification: PlayerTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+                  PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          RootGroup:
+            Name: <empty>
+            GroupCount: 0
+            ComponentCount: 2
+        m_CriteriaModels: []
+    00000027:
+      type: {class: ComponentQueryDeclarationModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_Name: RightPaddle Query
+        m_DataType:
+          Identification: Unity.Entities.EntityQuery, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 3
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 1
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: dd84837c-ef75-4e40-945e-0f197837c402
+        m_QueryContainer:
+          Groups: []
+          Components:
+          - Component:
+              TypeHandle:
+                Identification: Unity.Transforms.Translation, Unity.Transforms, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          - Component:
+              TypeHandle:
+                Identification: Player2Tag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+                  PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          RootGroup:
+            Name: <empty>
+            GroupCount: 0
+            ComponentCount: 2
+        m_CriteriaModels: []
+    00000028:
+      type: {class: ComponentQueryDeclarationModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_Name: Sphere Query
+        m_DataType:
+          Identification: Unity.Entities.EntityQuery, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 3
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 1
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 24b479c5-cfda-4fae-9f21-0a0b91326e95
+        m_QueryContainer:
+          Groups: []
+          Components:
+          - Component:
+              TypeHandle:
+                Identification: Unity.Physics.PhysicsVelocity, Unity.Physics, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          - Component:
+              TypeHandle:
+                Identification: BallTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+                  PublicKeyToken=null
+              Subtract: 0
+              IsShared: 0
+          RootGroup:
+            Name: <empty>
+            GroupCount: 0
+            ComponentCount: 2
+        m_CriteriaModels: []
+    00000029:
+      type: {class: VariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: topClamp
+        m_DataType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_VariableType: 1
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 79
+        m_Modifiers: 0
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: d9004fae-899c-437f-98e2-8f254f27bbff
+    0000002A:
+      type: {class: VariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: bottomClamp
+        m_DataType:
+          Identification: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        m_VariableType: 1
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 80
+        m_Modifiers: 0
+        variableFlags: 0
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 721d9c59-46c6-4c62-b788-61a319d925c1
+    0000002B:
+      type: {class: SetPositionNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: 2ec775f6d31c84248a3c37bcf0fed423
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Translate
+        m_InputConstantKeys:
+        - Z
+        - Y
+        - X
+        m_InputConstantsValues:
+        - id: 81
+        - id: 82
+        - id: 83
+        m_State: 0
+        Mode: 1
+        Add: 0
+    0000002C:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: LeftPaddle QueryEntity
+        m_DataType:
+          Identification: Unity.Entities.Entity, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 45b82a84-31c3-4e98-9c3d-40c1893b15ea
+        m_TitleComponentIcon: 5
+    0000002D:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: Translation
+        m_DataType:
+          Identification: Unity.Transforms.Translation, Unity.Transforms, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 1d0b3f46-e0bf-4e61-9383-900dc50a4fc4
+        m_TitleComponentIcon: 5
+    0000002E:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: PlayerTag
+        m_DataType:
+          Identification: PlayerTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: adc67879-5daf-47c1-bcd3-a05fa3164450
+        m_TitleComponentIcon: 5
+    0000002F:
+      type: {class: InputConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: a0ffd6c6e3afdc844addd87ed4254fea
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Input Choice
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value:
+          name: Vertical
+    00000030:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: eb4df843a6b8e1542a8853e5ff4b71a7
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000031:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 85e2bea6e0bdaa946b4a14bae6859a1d
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000032:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: f8b99ce21b8e6f14c98db2695d4986ab
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000033:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 3526f537c64e84a4a8758bbe3a9c488c
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000034:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: b8283f27d3d7b15458f3df4ef9631c35
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: X
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000035:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 6fac9652d74256642a623cf69de9979e
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: -2
+    00000036:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 2bfd56537683f2c47a75772d0808f3e0
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 4
+    00000037:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 101c1c4276b850549950ec5e2145410f
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000038:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: a0a931f104d26db418c9fe3628316749
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000039:
+      type: {class: SetPositionNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: fb0acba958241824da47138e55abdbe4
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Translate to
+        m_InputConstantKeys:
+        - Z
+        - Y
+        - X
+        m_InputConstantsValues:
+        - id: 84
+        - id: 85
+        - id: 86
+        m_State: 0
+        Mode: 1
+        Add: 0
+    0000003A:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: RightPaddle QueryEntity
+        m_DataType:
+          Identification: Unity.Entities.Entity, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 2874c21c-ff6d-4c82-92db-e19b0ef09de3
+        m_TitleComponentIcon: 5
+    0000003B:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: Translation
+        m_DataType:
+          Identification: Unity.Transforms.Translation, Unity.Transforms, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 771bfa88-2a09-40ee-8219-b47a54de5036
+        m_TitleComponentIcon: 5
+    0000003C:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: Player2Tag
+        m_DataType:
+          Identification: Player2Tag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 390141fb-d733-44c2-bf4a-38d21be8af70
+        m_TitleComponentIcon: 5
+    0000003D:
+      type: {class: InputConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Input Choice
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value:
+          name: VerticalP2
+    0000003E:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    0000003F:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000040:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000041:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000042:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: X
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000043:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: -2
+    00000044:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 4
+    00000045:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: A
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000046:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: B
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000047:
+      type: {class: SetComponentNodeModel, ns: UnityEditor.VisualScripting.Model.Stencils,
+        asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: f34323f5c08bfa740ba69cac4a314081
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Set Component
+        m_InputConstantKeys:
+        - Linear
+        - Angular
+        m_InputConstantsValues:
+        - id: 87
+        - id: 88
+        m_State: 0
+        ComponentType:
+          Identification: Unity.Physics.PhysicsVelocity, Unity.Physics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+    00000048:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: Sphere QueryEntity
+        m_DataType:
+          Identification: Unity.Entities.Entity, Unity.Entities, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 473b096c-d637-45a3-8833-997a086c3895
+        m_TitleComponentIcon: 5
+    00000049:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: PhysicsVelocity
+        m_DataType:
+          Identification: Unity.Physics.PhysicsVelocity, Unity.Physics, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 01a0d126-bbab-4ddf-888b-187dd66df262
+        m_TitleComponentIcon: 5
+    0000004A:
+      type: {class: LoopVariableDeclarationModel, ns: UnityEditor.VisualScripting.Model,
+        asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_Name: BallTag
+        m_DataType:
+          Identification: BallTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_VariableType: 2
+        m_IsExposed: 0
+        m_Tooltip: 
+        m_InitializationModel:
+          id: 78
+        m_Modifiers: 0
+        variableFlags: 1
+        m_AssetModel: {fileID: 11400000}
+        m_Id: 64786e7e-5f4e-457b-be0f-72b3f2fd79db
+        m_TitleComponentIcon: 5
+    0000004B:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 6fdeeb40046b21844b519348a8b8cbc6
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Variable_init
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 10
+    0000004C:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 41aba33364f3e4946a1522b20b55b901
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Variable_init
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: -8
+    0000004D:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: f33a4a6b9a6919e47a277244257a48b7
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Variable_init
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 8
+    0000004E:
+      type: {class: , ns: , asm: }
+    0000004F:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: b1874538a78fde94e95a1970b7157a00
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Variable_init
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 4
+    00000050:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 9f56ae97eb28fb1449613f6dfdc0fbb3
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Variable_init
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: -2
+    00000051:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 16912ffe58d8dd544b750c964fc62c69
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Z
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000052:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 65104f1ecae70f448b013e0a77bfd59a
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Y
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000053:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 1635ce92a11c3a245960c6febe111e4e
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: X
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000054:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Z
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000055:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Y
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000056:
+      type: {class: FloatConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.GraphTools.Foundation.Editor}
+      data:
+        m_GuidAsString: 00000000000000000000000000000000
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: X
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value: 0
+    00000057:
+      type: {class: Float3ConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: 499bc010b769fbc4582c37247feb581b
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Linear
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value:
+          x: -10
+          y: 0
+          z: 0
+    00000058:
+      type: {class: Float3ConstantModel, ns: UnityEditor.VisualScripting.Model, asm: Unity.VisualScripting.Ecs.Editor}
+      data:
+        m_GuidAsString: dbca435f38147d540924e79068ead003
+        m_GraphAssetModel: {fileID: 11400000}
+        m_Position: {x: 0, y: 0}
+        m_Color: {r: 0.776, g: 0.443, b: 0, a: 0.5}
+        m_HasUserColor: 0
+        m_Title: Angular
+        m_InputConstantKeys: []
+        m_InputConstantsValues: []
+        m_State: 0
+        m_IsLocked: 0
+        value:
+          x: 0
+          y: 0
+          z: 0

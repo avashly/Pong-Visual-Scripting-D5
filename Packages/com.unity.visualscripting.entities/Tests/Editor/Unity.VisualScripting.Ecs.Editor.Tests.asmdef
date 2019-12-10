@@ -1,0 +1,30 @@
+﻿{
+    "name": "Unity.VisualScripting.Ecs.Editor.Tests",
+    "references": [
+        "Unity.VisualScripting.Ecs",
+        "Unity.VisualScripting.Ecs.Editor",
+        "Unity.GraphTools.Foundation.Editor",
+        "Unity.GraphTools.Foundation",
+        "Unity.Searcher.Editor",
+        "Unity.Entities",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "Unity.Rendering.Hybrid",
+        "Unity.Burst"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Moq.dll",
+        "Microsoft.CodeAnalysis.CSharp.dll",
+        "Microsoft.CodeAnalysis.dll"
+    ],
+    "autoReferenced": true
+}
